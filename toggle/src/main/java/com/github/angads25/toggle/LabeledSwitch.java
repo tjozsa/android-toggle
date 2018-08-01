@@ -512,4 +512,10 @@ public class LabeledSwitch extends View {
     public boolean isEnabled() {
         return enabled;
     }
+
+    @Override
+    public void setEnabled(boolean enabled) {
+        super.setEnabled(enabled);
+        this.enabled = enabled;
+    }
 }
